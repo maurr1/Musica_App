@@ -1,0 +1,7 @@
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\bin\Debug\MusicaAi.DomainModel.dll.config
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\bin\Debug\MusicaAi.DomainModel.dll
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\bin\Debug\MusicaAi.DomainModel.pdb
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\obj\Debug\MusicaAi.DomainModel.csprojAssemblyReference.cache
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\obj\Debug\MusicaAi.DomainModel.csproj.CoreCompileInputs.cache
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\obj\Debug\MusicaAi.DomainModel.dll
+E:\Documentos\TDMEUM\CUARTO SEMESTRE\DESARROLLO\SEGUNDO PARCIAL\Musica_back_app\musica_app\MusicaAi.DomainModel\obj\Debug\MusicaAi.DomainModel.pdb
