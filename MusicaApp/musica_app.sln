@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InputAdapter", "InputAdapter", "{9DBC7AB4-FB82-4413-838F-621E6DEDCEFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationService", "ApplicationService", "{23038363-C296-4046-A591-0A18BBAAE315}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModel", "DomainModel", "{1DDADD34-7194-4C3C-BF44-2C272D0FD355}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutputAdapter", "OutputAdapter", "{7AC61A6E-DC5D-4CC0-8908-0334112F0F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musica.api", "Musica.api\Musica.api.csproj", "{29183FDE-2813-475B-AD8E-81EE01FC181C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicaAi.DomainModel", "MusicaAi.DomainModel\MusicaAi.DomainModel.csproj", "{42587CAB-62C4-43A9-B946-2B2326A8D99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musica.OutputAdapter", "Musica.OutputAdapter\Musica.OutputAdapter.csproj", "{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "musica", "..\..\MusicaApp\Musica_app\musica_web_2\musica\", "{ABE9623F-F04F-4E25-84FA-193545D297CC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54488"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\MusicaApp\Musica_app\musica_web_2\musica\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54488\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54488"
+		Release.AspNetCompiler.PhysicalPath = "..\..\MusicaApp\Musica_app\musica_web_2\musica\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54488\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54488"
+		SlnRelativePath = "..\..\MusicaApp\Musica_app\musica_web_2\musica\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29183FDE-2813-475B-AD8E-81EE01FC181C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29183FDE-2813-475B-AD8E-81EE01FC181C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29183FDE-2813-475B-AD8E-81EE01FC181C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29183FDE-2813-475B-AD8E-81EE01FC181C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42587CAB-62C4-43A9-B946-2B2326A8D99B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42587CAB-62C4-43A9-B946-2B2326A8D99B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42587CAB-62C4-43A9-B946-2B2326A8D99B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42587CAB-62C4-43A9-B946-2B2326A8D99B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE9623F-F04F-4E25-84FA-193545D297CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE9623F-F04F-4E25-84FA-193545D297CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE9623F-F04F-4E25-84FA-193545D297CC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE9623F-F04F-4E25-84FA-193545D297CC}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29183FDE-2813-475B-AD8E-81EE01FC181C} = {23038363-C296-4046-A591-0A18BBAAE315}
+		{42587CAB-62C4-43A9-B946-2B2326A8D99B} = {1DDADD34-7194-4C3C-BF44-2C272D0FD355}
+		{44A0FAA6-5DAA-4ACF-A61F-0F699C6B6C38} = {7AC61A6E-DC5D-4CC0-8908-0334112F0F86}
+		{ABE9623F-F04F-4E25-84FA-193545D297CC} = {9DBC7AB4-FB82-4413-838F-621E6DEDCEFC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80713B33-1650-4859-99AD-9BEF8CBE3AB1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,175 @@
+@import "./variables.scss";
+
+.cancion {
+    margin-top: 22rem;
+
+    &__title {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+        background-image: linear-gradient(to right bottom, $primary-color-light, $primary-color-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: .2rem;
+        transition: all .2s;
+        margin-bottom: 5rem;
+        text-align: center;
+
+        &-small {
+            margin-bottom: 0;
+            font-size: 2.5rem;
+            margin-right: auto;
+            background-color: rgba(rgb(43, 43, 43), 0.5);
+            color: whitesmoke;
+        }
+    }
+
+    &__lista {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        list-style: none;
+        display: flex;
+        flex: 0 0 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+        box-shadow: 5px 2px 1px black;
+        margin: 2rem 0;
+        padding: 3rem;
+
+    }
+
+    &__info {
+        font-size: 2.5rem;
+        color: $primary-color-text;
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+        margin: 0 2.1rem;
+        padding: 2.5rem;
+         margin-right: auto;
+    }
+
+    &__nombre {
+
+        font-weight: 700;
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+       
+    }
+
+    &__photo {
+        margin-left: 1rem;
+        height: 8.5rem;
+        width: 12rem;
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+    }
+
+    &__duracion {
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+    }
+
+    &__subgenero {
+        margin-right: auto;
+        background-color: rgba(rgb(43, 43, 43), 0.5);
+    }
+}
+
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercasce;
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inLine-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        //Change for the buton element
+        border: none;
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(black, .2);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-0.1rem);
+        box-shadow: 0 0.5rem 1rem rgba(black, .2);
+    }
+
+    &--red {
+        background-color: orangered;
+        color: rgb(226, 224, 224);
+        border-radius: 10rem;
+
+        &::after {
+            background-color: red;
+        }
+    }
+
+    &--purple{
+        background-color: $primary-color-dark;
+        color: whitesmoke;
+        border-radius: 10rem;
+
+        &::after {
+            background-color: $primary-color-light;
+        }
+
+        &:active {
+            box-shadow: 0 1rem 2rem rgba(black, 0.15);
+            transform: translateY(0px);
+        }
+
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+
+    }
+}
+
+.btn-text {
+
+    &:link,
+    &:visited {
+        font-size: 1.5rem;
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $primary-color;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover {
+        background-color: $primary-color-dark;
+        color: whitesmoke;
+        box-shadow: 0 1rem 2rem rgba(black, 0.15);
+        transform: translateY(-2px);
+    }
+
+}

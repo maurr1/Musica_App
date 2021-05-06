@@ -1,0 +1,53 @@
+
+@import "./variables.scss";
+.Genero{
+text-align: center;
+    margin-top: 20rem;
+
+
+    &__title {
+        font-size: 3.5rem;
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+        background-image: linear-gradient(to right bottom, $primary-color-light, $primary-color-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: .2rem;
+        transition: all .2s;
+        
+    }
+    &__nombre{
+        color:blanchedalmond;
+        font-size: large;
+    }
+    &__lista{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+
+    &__card{
+        padding: 5rem;
+        font-size: 1.5rem;
+        margin: 2.5rem;
+        text-align: center;
+        background-color: rgba(58, 58, 58,0.4);
+        box-shadow: 5px 5px 5px 1px black;
+        display: inline-block;
+        flex: 0 0 20%
+    }
+
+   &__photo{
+     max-height: 18rem;
+     
+     &-box {
+        
+     }
+   }
+
+}
+.tit{
+    color:lightgray;
+}
+
